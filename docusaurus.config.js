@@ -1,14 +1,14 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'MUSCAT Documentation',
+  tagline: 'Static resources for the MUSCAT instrument',
+  url: 'https://muscat-docs.astro.cf.ac.uk',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/favicon.png',
+  organizationName: 'muscat-instrument', // Usually your GitHub org/user name.
+  projectName: 'documentation', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'MUSCAT',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -22,7 +22,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/muscat-instrument',
           label: 'GitHub',
           position: 'right',
         },
@@ -44,38 +44,45 @@ module.exports = {
             },
           ],
         },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-          ],
-        },
+//        {
+//          title: 'Community',
+//          items: [
+//            {
+//              label: 'Stack Overflow',
+//              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+//            },
+//            {
+//              label: 'Discord',
+//              href: 'https://discordapp.com/invite/docusaurus',
+//            },
+//          ],
+//        },
         {
           title: 'Social',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/muscat-instrument',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/MUSCAT_inst',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Content distributed under
+      <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+        CC-BY-4.0 license.
+      </a>
+      <br />
+      Built with Docusaurus.
+      <p>
+        <a href="https://www.netlify.com">
+          <img src="https://www.netlify.com/img/global/badges/netlify-dark.svg"
+           alt="Deploys by Netlify" />
+        </a>
+      </p>`,
     },
   },
   presets: [
