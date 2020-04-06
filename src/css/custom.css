@@ -36,3 +36,12 @@ html[data-theme='dark'] .hero.hero--primary {
 html[data-theme='dark'] .button.button--secondary.button--outline.button--lg:not(.button--active):not(:hover) {
     color: var(--ifm-font-base-color);
 }
+
+.home-feature-link {
+    color: var(--ifm-font-base-color);
+}
+
+.home-feature-link:hover {
+    color: var(--ifm-font-base-color);
+    text-decoration: none;
+}
