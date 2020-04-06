@@ -72,7 +72,7 @@ module.exports = {
         },
       ],
       copyright: `Content distributed under
-      <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+      <a class="footer__link-item" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
         CC-BY-4.0 license.
       </a>
       <br />
