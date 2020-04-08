@@ -97,7 +97,7 @@ def NEPphoton(power, nu, bw, splitout=False):
 nu_cent = np.average(freqFTS[idxs], weights=specFTSBBNorm[idxs])
 
 # Create new array of temperature to explore over larger range
-temps = np.linspace(4, 1000, num=40)
+temps = np.logspace(np.log10(4), np.log10(1000), num=40)
 
 P_planck = np.zeros(len(temps))
 P_RJ = np.zeros(len(temps))

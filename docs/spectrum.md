@@ -137,7 +137,7 @@ we also consider the bandwidth calculated using the full width at quarter the
 maximum value (FWQM) which gives a value of 50&nbsp;GHz.
 
 <img className='darkInvert image--center'
-     alt='Comparision of various methors of approximating the in-band power
+     alt='Comparison of various methors of approximating the in-band power
           compared to the Planck function'
      src={useBaseUrl('img/power_approximations.png')} /><br />
 
@@ -168,7 +168,6 @@ def RJ(nu, T):
 kb = 1.380649E-23  # J/K
 
 # Define the bandwidths
-
 bwHM_idx = np.where(specFTSBBNorm[idxs] > np.max(specFTSBBNorm[idxs])/2)[0]
 bwHM = (freqFTS[idxs][bwHM_idx[-1]] - freqFTS[idxs][bwHM_idx[1]])
 
