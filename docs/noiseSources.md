@@ -65,7 +65,7 @@ power incident on the detector.
      src={useBaseUrl('img/shot_wave_NEP.png')} /><br />
 
 From this we see that the photon noise is dominated by the wave-noise term
-for any source with a temperature over approximately 40&nbsp;K.
+for any source with a temperature over approximately 25&nbsp;K.
 
 The above plot is created using the following script.
 
