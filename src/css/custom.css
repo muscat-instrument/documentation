@@ -45,3 +45,14 @@ html[data-theme='dark'] .button.button--secondary.button--outline.button--lg:not
     color: var(--ifm-font-base-color);
     text-decoration: none;
 }
+
+html[data-theme='dark'] img.tex,
+html[data-theme='dark'] img.darkInvert {
+    filter:invert(1);
+}
+
+.image--center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

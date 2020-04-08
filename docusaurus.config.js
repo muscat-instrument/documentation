@@ -10,7 +10,7 @@ module.exports = {
     navbar: {
       title: 'MUSCAT',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'MUSCAT logo',
         src: 'img/logo.svg',
       },
       links: [
@@ -91,7 +91,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/muscat-instrument/documentation/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
