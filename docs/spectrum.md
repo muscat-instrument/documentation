@@ -168,11 +168,12 @@ def RJ(nu, T):
 kb = 1.380649E-23  # J/K
 
 # Define the bandwidths
-bwHW_idx = np.where(specFTSBBNorm[idxs] > np.max(specFTSBBNorm[idxs])/2)[0]
-bwHW = (freqFTS[idxs][bwHW_idx[-1]] - freqFTS[idxs][bwHW_idx[1]])
 
-bwQW_idx = np.where(specFTSBBNorm[idxs] > np.max(specFTSBBNorm[idxs])/4)[0]
-bwQW = (freqFTS[idxs][bwQW_idx[-1]] - freqFTS[idxs][bwQW_idx[1]])
+bwHM_idx = np.where(specFTSBBNorm[idxs] > np.max(specFTSBBNorm[idxs])/2)[0]
+bwHM = (freqFTS[idxs][bwHM_idx[-1]] - freqFTS[idxs][bwHM_idx[1]])
+
+bwQM_idx = np.where(specFTSBBNorm[idxs] > np.max(specFTSBBNorm[idxs])/4)[0]
+bwQM = (freqFTS[idxs][bwQM_idx[-1]] - freqFTS[idxs][bwQM_idx[1]])
 
 # List of temperatures to calculate power at
 temps = np.linspace(30, 500, num=20)
@@ -186,15 +187,15 @@ for i, temp in enumerate(temps):
     P_RJ[i] = integrate.trapz(RJ(freqFTS[idxs], temp) *
                               specFTSBBNorm[idxs]*AOmega, freqFTS[idxs])
 
-fig4, [ax4a, ax4b] = plt.subplots(ncols=2)
+fig2, [ax2a, ax2b] = plt.subplots(ncols=2)
 
-ax4a.plot(temps, P_planck, label='Planck')
-ax4a.plot(temps, P_RJ, label='R-J')
-ax4a.plot(temps, 2*kb*temps*bwHW, label='Linear, FWHM')
-ax4a.plot(temps, 2*kb*temps*bwQW, label='Linear, FWQM')
+ax2a.plot(temps, P_planck, label='Planck')
+ax2a.plot(temps, P_RJ, label='R-J')
+ax2a.plot(temps, 2*kb*temps*bwHM, label='Linear, FWHM')
+ax2a.plot(temps, 2*kb*temps*bwHM, label='Linear, FWQM')
 
-ax4b.plot(temps, P_planck/P_planck)
-ax4b.plot(temps, P_RJ/P_planck)
-ax4b.plot(temps, 2*kb*temps*bwHW/P_planck)
-ax4b.plot(temps, 2*kb*temps*bwQW/P_planck)
+ax2b.plot(temps, P_planck/P_planck)
+ax2b.plot(temps, P_RJ/P_planck)
+ax2b.plot(temps, 2*kb*temps*bwHM/P_planck)
+ax2b.plot(temps, 2*kb*temps*bwQM/P_planck)
 ```
