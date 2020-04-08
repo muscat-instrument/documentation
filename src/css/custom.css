@@ -47,8 +47,13 @@ html[data-theme='dark'] .button.button--secondary.button--outline.button--lg:not
 }
 
 html[data-theme='dark'] img.tex,
-html[data-theme='dark'] img.darkInvert {
+html[data-theme='dark'] img.darkInvert,
+.alert--info * img.tex {
     filter:invert(1);
+}
+
+html[data-theme='dark'] .alert--info * img.tex {
+    filter:invert(0) !important;
 }
 
 .image--center {
