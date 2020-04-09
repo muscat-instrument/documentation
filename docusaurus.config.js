@@ -15,9 +15,18 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/doc1',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          to: 'docs/design',
+          label: 'Design',
+          position: 'left',
+        },
+        {
+          to: 'docs/spectrum',
+          label: 'Analysis',
+          position: 'left',
+        },
+        {
+          to: 'docs/cooldown',
+          label: 'Performance',
           position: 'left',
         },
         {
@@ -31,15 +40,11 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Quick Links',
           items: [
             {
               label: 'Style Guide',
               to: 'docs/doc1',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2',
             },
           ],
         },
