@@ -53,7 +53,7 @@ fluctuation of 11&nbsp;%.
      alt='Histogram of temperature variation for the 4-K plate over 100 hours'
      src={useBaseUrl('img/450mKstability_100hr.png')} /><br />
 
-The 450-mK plate, had an average temperature of 501.5&nbsp;K with a standard
+The 450-mK plate, had an average temperature of 501.5&nbsp;mK with a standard
 deviation of 14.61&nbsp;mK, a relative fluctuation of 3&nbsp;%. These
 fluctuations are not predominantly due to conduction from the 4-K plate but
 instead are caused by heat leak from the final reservoir which is having helium
@@ -71,5 +71,5 @@ dissipates 324&nbsp;μW into the 450-mK stage which heats it to approximately
      alt='Histogram of temperature variation for the 4-K plate over 100 hours'
      src={useBaseUrl('img/DetectorStability_100hr.png')} /><br />
 
-The detector plate, had an average temperature of 501.5&nbsp;K with a standard
-deviation of 14.61&nbsp;mK, a relative fluctuation of 3&nbsp;%.
+The detector plate, had an average temperature of 132.6&nbsp;mK with a standard
+deviation of 0.68&nbsp;mK, a relative fluctuation of 0.5&nbsp;%.
