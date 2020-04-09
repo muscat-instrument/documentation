@@ -10,7 +10,7 @@ const features = [
   {
     title: <>Design and Operation</>,
     imageUrl: 'img/undraw_under_construction.svg',
-    link: 'docs/doc1',
+    link: 'docs/design',
     description: (
       <>
         Information about the design and construction of the MUSCAT instrument
@@ -21,7 +21,7 @@ const features = [
   {
     title: <>Interfacing and Anaylsis</>,
     imageUrl: 'img/undraw_code_typing.svg',
-    link: 'docs/doc2',
+    link: 'docs/spectrum',
     description: (
       <>
         How to interface with the instrument for on-site real-time telemetry
@@ -32,7 +32,7 @@ const features = [
   {
     title: <>Typical Performance</>,
     imageUrl: 'img/undraw_progress_data.svg',
-    link: 'docs/doc1',
+    link: 'docs/cooldown',
     description: (
       <>
         Typical performance for both the cryogenic platform and the detector
