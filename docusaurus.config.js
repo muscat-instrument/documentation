@@ -16,19 +16,16 @@ module.exports = {
       links: [
         {
           to: 'docs/design',
-          activeBasePath: 'docs',
           label: 'Design',
           position: 'left',
         },
         {
           to: 'docs/spectrum',
-          activeBasePath: 'spectrum',
           label: 'Analysis',
           position: 'left',
         },
         {
           to: 'docs/cooldown',
-          activeBasePath: 'docs',
           label: 'Performance',
           position: 'left',
         },
