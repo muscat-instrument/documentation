@@ -88,6 +88,9 @@ module.exports = {
         </a>
       </p>`,
     },
+    googleAnalytics: {
+      trackingID: 'UA-42876440-5',
+    },
   },
   presets: [
     [
