@@ -43,6 +43,10 @@ module.exports = {
           title: 'Quick Links',
           items: [
             {
+              label: 'Privacy Policy',
+              to: 'privacy',
+            },
+            {
               label: 'Style Guide',
               to: 'docs/doc1',
             },
