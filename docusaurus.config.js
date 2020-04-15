@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'MUSCAT Documentation',
-  tagline: 'Static resources for the MUSCAT instrument',
+  title: 'MUSCAT User Guide',
+  tagline: 'Static support resources for the MUSCAT instrument',
   url: 'https://muscat-docs.astro.cf.ac.uk',
   baseUrl: '/',
   favicon: 'img/favicon.png',
