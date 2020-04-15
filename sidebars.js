@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Design: ['design'],
+    Design: ['design', {'Cryogenics': ['recycling']}],
     Analysis: ['spectrum', 'noise'],
     Performance: ['cooldown', 'tempStability']
     },
