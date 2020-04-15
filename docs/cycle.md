@@ -128,3 +128,11 @@ The following presents a basic overview of the states used in the state-machine 
 40. _wait_ `CC4TimeAfterCC7BeforeCC4`, _then go to_ 41
 41. Set CC4 He4 B pump heater to 0, apply `CC4CC7He4BHSVOn` to CC4 He4B HS heater, _go to_ 42
 42. _wait_ `CC7TimeBetweenCycles`, _then go to_ 1
+
+## Miniature Dilution Refrigerator
+The cycle described above does not consider the operation of the miniature dilution refrigerator used to cool the detectors from 450&nbsp;mK to 120&nbsp;mK. A dilution refrigerator )either standard or miniature) is inherently continuous and thus does not require recycling in the same way that a sorption-cooler based system does. The miniature dilution refrigerator simply requires a static thermal power to be applied to its still (also known as the evaporator). In theory this power could be applied at all times including during the cooldown from 300&nbsp;K, however the reality of doing this would be that cooldown of the 450-mK stage from 4&nbsp;K to its base temperature would take longer were this done. Instead the state machine used to cycle the continuous sorption coolers monitors the cooldown of the 450-mK stage and when appropriate applies the thermal load to the still. To do this the state machine is modified as follows:
+
+-   A flag variable called `FocalPlaneReady` is added with a default value of `False`
+-   If at Step 39 above the temperature of the miniature dilution refrigerator's mixing chamber (the detector stage of MUSCAT) is above `MDStartStillBelowT`, `FocalPlaneReady` is set to `False`, the still heater is switched off (0 V applied) and the state machine advances to Step 40
+-   If at Step 39 above the temperature of the miniature dilution refrigerator's mixing chamber is below `MDStartStillBelowT` _AND_ `FocalPlaneReady` is `False`, `FocalPlaneReady` is set to `True`, the still heater is left off (with 0 V applied) and the state machine moves on to Step 40
+-   If at Step 39 above the temperature of the miniature dilution refrigerator's mixing chamber is below `MDStartStillBelowT` _AND_ `FocalPlaneReady` is `True` (that is to say the above condition was met on the previous B sub-system cycle), the still heater is set to `MDStillVOn` and the state machine moves on to Step 40
