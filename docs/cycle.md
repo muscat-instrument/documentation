@@ -80,3 +80,49 @@ Example configuration files, based on the currently used parameters are availabl
 -   <a href={useBaseUrl('data/Params_default.ini')}>Cycle Parameters</a>
 
 ## Cycle State Flow
+
+The following presents a basic overview of the states used in the state-machine to recycle the coolers in MUSCAT cryostat
+
+0.  Start with all HSs `CC*He**HSVOn`
+1.  Set CC4 A HS heater `CC4He4AHSVOff`, _go to_ 2
+2.  Set CC7 A He3 and He4 HS heaters to `CC7He3AHSVOff` and `CC7He4AHSVOff`, _go to_ 3
+3.  _if_ CC4 He4A HS is < `CC4HSOffBelow` _go to_ 4; _else go to_ 3
+4.  Apply `CC4He4APumpVHeat` to CC4 He4 A pump heater, _go to_ 5
+5.  _if_ CC7 He4 A HS _AND_ CC7 He3 A HS < `CC7HSOffBelow` _go to_ 6, _else go to_ 5
+6.  Apply `CC7He4APumpVHeat` to CC7 He4 A pump heater, apply `CC7He3ASoftStartV` to CC7 He3 A pump heater, _go to_ 7
+7.  _if_ CC7 He4 A pump > `CC7He4APumpSetT` _go to_ 8 (once only); _if_ CC4 He4 A pump > `CC4He4APumpSetT` _go to_ 9 (once only); _if_  CC7 He4 A pump > `CC7He4APumpSetT` _AND_  CC4 He4 A pump > `CC4He4APumpSetT` _go to_ 10; _else go to_ 7
+8.  Apply `CC7He4APumpVHold` to CC7 He4 A pump heater, _go to_ 7
+9.  Apply `CC4He4APumpVHold` to CC4 He4 A pump heater, _go to_ 7
+10. Apply `CC7He3APumpVHeat` to CC7 He3 A pump heater, _go to_ 11
+11. _if_ CC7 He3 A pump > `CC7He3APumpSetT` _go to_ 12; _else go to_ 11
+12. Apply `CC7He3APumpVHold`, _go to_ 13
+13. _if_ CC7 He4 A head < `CC7He4CondTemp` _go to_ 14; _else go to_ 13
+14. _wait_ `CC7He4CondTime` _then go to_ 15.
+15. Set CC7 He4 A pump heater to 0, apply `CC7He4AHSVOn` to CC7 He4A HS heater, _go to_ 16
+16. _if_ CC7 He3 A head < `CC7He3CondTemp` _go to_ 17; _else if_ time at this state > `CC7He3TimeOut` _go to_ 17; _else go to_ 16
+17. _wait_ `CC7He3CondTime`, _then go to_ 18
+18. Set CC7 He3 A pump heater to 0, apply `CC7He3AHSVOn` to CC7 He3A HS heater, _go to_ 19
+19. _wait_ `CC4TimeAfterCC7BeforeCC4`, _then go to_ 20
+20. Set CC4 He4 A pump heater to 0, apply `CC4He4AHSVOn` to CC4 He4A HS heater, _go to_ 21
+21. _wait_ `CC7TimeBetweenCycles`, _then go to_ 22
+22. Set CC4 B HS heater to `CC4He4BHSVOff`, _go to_ 23
+23. Set CC7 B He3 and He4 HS heaters to `CC7He3BHSVOff` and `CC7He4BHSVOff`, _go to_ 24
+24. _if_ CC4 He4 B HS < `CC4HSOffBelow`, _go to_ 25; _else go to_ 24
+25. Apply `CC4He4BPumpVHeat` to CC4 He4 B pump heater, _go to_ 26
+26. _if_ CC7 He4 B HS _AND_ CC7 He3 B HS < `CC7HSOffBelow` _go to_ 27, _else go to_ 26
+27. Apply `CC7He4BPumpVHeat` to CC7 He4 B pump heater, apply `CC7He3BSoftStartV` to CC7 He3 A pump heater, _go to_ 28
+28. _if_ CC7 He4 B pump > `CC7He4BPumpSetT` _go to_ 29 (once only); _if_ CC4 He4 B pump > `CC4He4BPumpSetT` _go to_ 30 (once only), _if_ CC4 He4 B pump > `CC4He4BPumpSetT` _AND_ CC7 He4 B pump > `CC7He4BPumpSetT` _go to_ 31, _else go to_ 28
+29. Apply `CC7He4BPumpVHold` to CC7 He4 B pump heater, _go to_ 28
+30. Apply `CC4He4BPumpVHold` to CC4 He4 B pump heater, _go to_ 28
+31. Apply `CC7He3BPumpVHeat` to CC7 He3 B pump heater, _go to_ 32
+32. _if_ CC7 He3 B pump > `CC7He3BPumpSetT` _go to_ 33, _else go to_ 32
+33. Apply `CC7He3BPumpVHold` to CC7 He3 B pump heater, _go to_ 34
+34. _if_ CC7 He4 B pump head < `CC7He4CondTemp` _go to_ 35, _else go to_ 34
+35. _wait_ `CC7He4CondTime`, _then go to_ 36.
+36. Set CC7 He4 B pump heater to 0, apply `CC7He4BHSVOn` to CC7 He4 B HS, _go to_ 37
+37. _if_ CC7 He3 B head < `CC7He3CondTemp` _go to_ 38; _else if_ time at this state > `CC7He3TimeOut` _go to_ 38; _else go to_ 37
+38. _wait_ `CC7He3CondTime`, _then go to_ 39
+39. Set CC7 He3 B pump heater to 0, apply `CC7He3BHSVOn` to CC7 He3B HS heater, _go to_ 40
+40. _wait_ `CC4TimeAfterCC7BeforeCC4`, _then go to_ 41
+41. Set CC4 He4 B pump heater to 0, apply `CC4CC7He4BHSVOn` to CC4 He4B HS heater, _go to_ 42
+42. _wait_ `CC7TimeBetweenCycles`, _then go to_ 1
