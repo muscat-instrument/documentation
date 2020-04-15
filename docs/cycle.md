@@ -83,7 +83,11 @@ Example configuration files, based on the currently used parameters are availabl
 
 ## Cycle State Flow
 
-The following presents a basic overview of the states used in the state-machine to recycle the coolers in MUSCAT cryostat
+The following presents a basic overview of the states used in the state-machine to recycle the coolers in MUSCAT cryostat.
+
+:::info
+The following steps assume that the pulse tube is running and system has cooled to 4&nbsp;K. These preliminary steps are controlled and reported by the MUSCAT Cryogenics Control and Logging Software but are note detailed here.
+:::
 
 0.  Start with all HSs `CC*He**HSVOn`
 1.  Set CC4 A HS heater `CC4He4AHSVOff`, _go to_ 2
