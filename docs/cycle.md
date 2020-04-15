@@ -72,8 +72,10 @@ The second set of parameters defines values like the set temperature each pump i
 | CC4 | `He4BHSVOff` | Voltage to apply while heat switch for He4 A pump is off (open) | 0 | Volts | Min: 0, Max: 5 |
 | CC4 | `HSOffBelow` | Temperature below which a heat switch is considered to be off (open) | 15.0 | Kelvin | Min: 0 |
 | CC4 | `TimeAfterCC7BeforeCC4` | Time to wait after finishing the CC7 subsystem cycle before finishing the CC4 subsystem cycle | 0 | Seconds | Min: 0 |
+| MD | `StillVOn` | Voltage applied to still heater to circulate He3 | 1.8 | Volts | Min: 0, Max: 2 |
+| MD | `StartStillBelowT` | Temperature of still condensor (450-mK stage) below which to start circulating He3 | 0.6 | Kelvin | Min: 0 |
 
-### Example files
+### Example Files
 Example configuration files, based on the currently used parameters are available for download here.
 
 -   <a href={useBaseUrl('data/Indexes_default.ini')}>Hardware Parameters</a>
