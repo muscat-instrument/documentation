@@ -59,7 +59,7 @@ The second set of parameters defines values like the set temperature each pump i
 | CC7 | `He3CondTime` | Time to wait for He3 to condense | 480 | Seconds | Min: 0 |
 | CC7 | `HSOffBelow` | Temperature below which a heat switch is considered to be off (open) | 15.0 | Kelvin | Min: 0 |
 | CC7 | `TimeBetweenCycles` | Time between the end of a A/B subsystem cycle and the start of the B/A cycle | 480 | Seconds | Min: 0 |
-| CC7 | `He3TimeOut` | Fall-back parameter - Maximum time to wait after setting `He3*PumpVHold` for the head of a He3 pump to cool below `He3CondTemp` before manually advancing the cycle | 2700 | Seconds | Min: 0 |
+| CC7 | `He3TimeOut` | Fall-back parameter - Maximum time to wait after pumping He4 for the head of a He3 pump to cool below `He3CondTemp` before manually advancing the cycle | 2700 | Seconds | Min: 0 |
 | CC4 | `He4APumpSetT` | Temperature to heat He4 A pump to condense He4 | 47.0 | Kelvin | Min: 0 |
 | CC4 | `He4APumpVHeat` | Voltage used to heat He4 A pump up to `He4APumpSetT` | 24.0 | Volts | Min:&nbsp;0, Max:&nbsp;24 |
 | CC4 | `He4APumpVHold` | Voltage used to hold He4 A pump at approximately `He4APumpSetT` during condensation | 4.5 | Volts | Min:&nbsp;0, Max:&nbsp;24 |
