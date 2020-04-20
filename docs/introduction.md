@@ -26,6 +26,4 @@ We kindly ask authors referencing this site to cite it as:<br />
 Some pages of this site contain an _author(s) to cite_ line, when citing pages please use the following citation replacing the first "author(s)" as needed.<br />
 > Author(s) and the MUSCAT Collaboration (2020). The MUSCAT User Guide \[online\]. Available at: <https://muscat-docs.astro.cf.ac.uk>.
 
-The following is not live yet, please contact the collaboration for a complete list of members.
-
-~~An up to date list of the MUSCAT collaboration can be downloaded [here](https://github.com/404) as a PDF or in various formats [here](https://www.github.com/404).~~
+An up to date list of the MUSCAT collaboration can be downloaded [here](https://github.com/muscat-instrument/members/releases/latest/download/member_list.pdf) as a PDF or in various formats [here](https://github.com/muscat-instrument/members/releases/latest).
