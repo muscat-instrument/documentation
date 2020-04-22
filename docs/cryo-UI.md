@@ -82,3 +82,22 @@ The Home tab provides the majority of the control and information provided by th
     - **Temp.**: Temperature at each point listed in the raw quantity column.
   - **Index**: Channel the sensor occupies on the FPGA readout hardware.
 - **PTC Log Interval (s)**: Interval in seconds between reading status data from the pulse tube cooler
+
+## Debug Tab
+
+### Information Display
+
+- **Auto Cycle**
+  - **Waiting Heater Set**: Indicates if the state machine is holding waiting for the current thermometry hardware to update the heater voltages
+  - **Number of diodes**: Number of diode temperature sensors being read out and logged, this is the number of elements in the `Diode Setup` array on the Setup tab. Useful when appending units to the array of raw values.
+  - **Number of RTDs**: Number of RTD temperature sensors being read out and logged, this is the number of elements in the `RTD Setup` array on the Setup tab. Useful when appending units to the array of raw values.
+- **PTC**
+  - **Raw Value**: The raw value of the currently selected register
+  - **Value**: Decoded value of the currently selected register, for warnings or alarm errors the raw error code will be decoded and all active warnings/alarms will be listed.
+  - **I/O error**: LabView error cluster for communication with the compressor
+  - **Compressor Status**: LabView error cluster for the operational state of the compressor
+
+### Controls
+
+- **PTC**
+  - **View Custom Register**: Selects the register to be detailed in the `Raw Value` and `Value` displays.
