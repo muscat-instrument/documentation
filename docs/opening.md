@@ -41,5 +41,13 @@ Venting the vacuum to quickly will cause permanent damage to the filters and oth
 1. Using lifting equipment, place a pallet under the bottom of the 50-Kelvin shield to support the field.
 2. Remove and store the bolts and washers from the perimeter of the 50-Kelvin shield that secure the shield to the 50-Kelvin plate.
 3. Unplug the lid diode connector close to the interface between the 50-Kelvin shield and plate.
-4. Using the lifting equipment, carefully lower the 50-Kelvin shield until it is clear of the 40Kelvin shield. Ensure that it does not catch or scratch the 4-Kelvin shield.
+4. Using the lifting equipment, carefully lower the 50-Kelvin shield until it is clear of the 4-Kelvin shield. Ensure that it does not catch or scratch the 4-Kelvin shield.
 ![Removing 50-Kelvin shield](/img/open_50K.png)
+
+## Removing the 4-Kelvin Shield
+
+1. Using lifting equipment, place a pallet under the bottom of the 4-Kelvin shield to support the field.
+2. Remove and store the bolts and washers from the perimeter of the 4-Kelvin shield that secure the shield to the 4-Kelvin plate. Most of these bolts are pass through the shield and are tightened into tapped holes in the 4-Kelvin plate however two pass through the plate in the opposite direction and are tightened into nuts in the 4-Kelvin shield, these two bolts should be removed last.
+3. Unplug the lid diode connector close to the interface between the 4-Kelvin shield and plate.
+4. Using the lifting equipment, carefully lower the 4-Kelvin shield until it is clear of the 40Kelvin shield. Ensure that it does not catch or scratch the 450-mK shield.
+![Removing 4-Kelvin shield](/img/open_4K.png)
