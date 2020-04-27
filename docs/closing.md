@@ -3,3 +3,18 @@ id: closing
 title: 'Closing the MUSCAT Cryostat'
 sidebar_label: Closing
 ---
+
+## Installing the 450-mK Shield
+
+:::info
+This step requires at least three people. Two to lift and locate the shield and one to secure the initial bolts.
+:::
+
+1. With the 450-mK shield below MUSCAT approximately orientate the shield so the coloured alignment marks on the top rim of the shield and the edge of the 450-mK plate. Using two people.
+2. Using two people, lift the shield into place. It will need to be tilted to clear the internal components at the 450-mK stage. Extreme care should be taken not to damage the tubes of the miniature dilution refrigerator, these contain the He4/He3 mix and are at high pressure (70 Bar, 1000 PSI).
+3. Place the bolts (with washers) to secure the 450-mK shield to the plate. These bolts are places through the 450-mK plate and screw into the 450-mK shield.
+4. Plug in the 450-mK lid RTD at the interface between the shield and the plate, there is an orientation marker on each part of the connector.
+
+![Installing the 450-mK shield](/img/close_450mK.png)
+
+
