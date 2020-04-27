@@ -1,0 +1,32 @@
+{
+    "markdownlint.config": {
+        "MD033": false,    
+    },
+    "[markdown]":{
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 80,
+    },
+    "cSpell.words": [
+        "Autocycle",
+        "FPGA",
+        "RTDs",
+        "Resis",
+        "cooldown",
+        "cryo",
+        "getchannelnames",
+        "getchannels",
+        "gettemps",
+        "mccal",
+        "query"
+    ],
+    "cSpell.languageSettings": [
+        {
+            // use with Markdown files
+            "languageId": "markdown",
+            // Exclude code.
+            "ignoreRegExpList": [
+                "/^\\s*```[\\s\\S]*?^\\s*```/gm"
+            ]
+        }
+    ]
+}
