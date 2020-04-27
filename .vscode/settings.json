@@ -17,7 +17,8 @@
         "getchannels",
         "gettemps",
         "mccal",
-        "query"
+        "query",
+        "thermalised"
     ],
     "cSpell.languageSettings": [
         {
