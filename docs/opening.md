@@ -34,3 +34,12 @@ Venting the vacuum to quickly will cause permanent damage to the filters and oth
 :::
 5. Once the vacuum is vented and the vacuum valve is fully open, remove and store the nuts and washers that secured the vacuum can to the top plate.
 6. Slowly lower the vacuum can until the top of the vacuum can is lower than the bottom of the 50-Kelvin shield. While lowering the vacuum can it is important to constantly check that it will not catch or scratch the 50-Kelvin shield.
+![Removing vacuum can](/img/open_OVC.png)
+
+## Removing the 50-Kelvin Shield
+
+1. Using lifting equipment, place a pallet under the bottom of the 50-Kelvin shield to support the field.
+2. Remove and store the bolts and washers from the perimeter of the 50-Kelvin shield that secure the shield to the 50-Kelvin plate.
+3. Unplug the lid diode connector close to the interface between the 50-Kelvin shield and plate.
+4. Using the lifting equipment, carefully lower the 50-Kelvin shield until it is clear of the 40Kelvin shield. Ensure that it does not catch or scratch the 4-Kelvin shield.
+![Removing 50-Kelvin shield](/img/open_50K.png)
