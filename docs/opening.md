@@ -6,6 +6,10 @@ sidebar_label: Opening
 
 To open the MUSCAT cryostat it should be first mounted on the work frame with the _clam plate_ closed and secured in place, this allows the vacuum can and radiation shields to be lowered.
 
+:::caution
+Before opening the cryostat, the operator should be certain that all the stages and internal components of MUSCAT have thermalised to room temperature.
+:::
+
 ## Mounting MUSCAT on the Work Frame
 
 1. With MUSCAT placed centrally under the work frame, remove the bolts on the long edge of each clam plate and loosen the bolts in the slots on the short edges.
