@@ -22,3 +22,15 @@ Before opening the cryostat, the operator should be certain that all the stages 
 8. Lower the MUSCAT cryostat so the top plate is resting on the clam plates.
 9. Instal and tighten bolts through the outer-most holes in the top plate of the MUSCAT cryostat to secure the cryostat to the work frame.
 10. Rotate the gear-shaped dial on each wheel to lower the rubber foot and raise the wheel slightly off the floor.
+
+## Removing the Vacuum Can
+
+1. Using lifting equipment, place a pallet under the MUSCAT cryostat in contact with the underside of the vacuum can. Ensure the lifting mechanism of the equipment is locked.
+2. Loosen all the nuts that secure the vacuum can to the top plate by half a turn.
+3. Remove and store the KF-40 vacuum blank and clamp from the vacuum port of the MUSCAT cryostat.
+4. **Slowly** vent the vacuum by opening the valve on the vacuum port. This process should take approximately 10 minutes. The valve should be opened only enough to allow the sound of air filling the cryostat to be audible. While venting the vacuum, continually check that the vacuum can is supported by the pallet and lifting equipment.
+:::caution
+Venting the vacuum to quickly will cause permanent damage to the filters and other components within MUSCAT.
+:::
+5. Once the vacuum is vented and the vacuum valve is fully open, remove and store the nuts and washers that secured the vacuum can to the top plate.
+6. Slowly lower the vacuum can until the top of the vacuum can is lower than the bottom of the 50-Kelvin shield. While lowering the vacuum can it is important to constantly check that it will not catch or scratch the 50-Kelvin shield.
