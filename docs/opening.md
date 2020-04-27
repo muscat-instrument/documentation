@@ -51,3 +51,18 @@ Venting the vacuum to quickly will cause permanent damage to the filters and oth
 3. Unplug the lid diode connector close to the interface between the 4-Kelvin shield and plate.
 4. Using the lifting equipment, carefully lower the 4-Kelvin shield until it is clear of the 40Kelvin shield. Ensure that it does not catch or scratch the 450-mK shield.
 ![Removing 4-Kelvin shield](/img/open_4K.png)
+
+## Removing the 450-mK Shield
+
+:::info
+This step requires at least three people. Two to support and lower the shield, and one to undo the bolts.
+:::
+
+1. Unplug the 450-mK lid RTD (temperature sensor) at the interface between the 450-mK shield and plate.
+2. Remove and store all the bolts and washers **except** the two in the marked positions (see annotations of shield).
+3. With two people supporting the shield, remove the two remaining bolts and washers.
+4. Carefully lower the shield. The shield will clear the contents if lowered in a straight line downwards. Instead it need to be tilted to allow it to clear the detector modules and RF cabling on one side and the mirror support on the other side (this takes a bit of practice). Take care not to catch or damage tubes of the miniature dilution refrigerator, these contain the He4/He3 mix of the dilutor and are at very high pressure(approximately 70 Bar, 1000 PSI).
+
+## Storing the Vacuum Can and Shields
+
+The shield should not be stacked or nested inside each other or inside the vacuum can. Doing so means it is extremely likely the low-emissivity lining on the walls of the shields and inner wall of the vacuum can will be damaged. Can should be taken to protect the neoprene o-ring in the vacuum can from becoming dirty.
