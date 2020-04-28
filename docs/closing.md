@@ -62,3 +62,5 @@ It is important to use the vacuum pump to bring the can into contact with the to
 5. Moving each plate in turn a little at a time, slide the clam plates upon. Make sure the plates are slid open evenly to the work frame doesn't become unstable and tip.
 6. Using the lifting equipment, lower the cryostat through the opened clam plates.
 7. Close the clam plates by moving each plate a little at a time and alternating between the two plates. Make sure the frame does not become unbalanced and tip. Tighten the bolts in the slots located on the short edges of the clam plates and reinstall the bolts and washers on the long edges and tighten these.
+
+![Removing MUSCAT from the Work Frame](/img/cryostat_remove_frame.png)
