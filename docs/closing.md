@@ -17,4 +17,12 @@ This step requires at least three people. Two to lift and locate the shield and 
 
 ![Installing the 450-mK shield](/img/close_450mK.png)
 
+## Installing the 4-Kelvin Shield
 
+1. Place the 4-Kelvin shield on appropriate lifting equipment orientated such that the alignment marks align on the plate edge and the top rim of the shield.
+2. Using the lifting equipment, raise the 4-Kelvin shield around the 450-mK shield taking care not to catch or damage the 450-mK shield.
+3. At the two positions marked with an asterisk (`*`), place bolts through the 4-Kelvin plate and tighten them into the pre-installed nuts in the 4-Kelvin can.
+4. In the remaining bolt holes, locate the bolts through the 4-Kelvin shield and screw them into the tapped holes in the plate.
+5. Plug in the 4-Kelvin lid diode sensor at the interface between the shield and the lid, there is an orientation marking in each part of the connector.
+
+![Installing the 4-Kelvin shield](/img/close_4K.png)
