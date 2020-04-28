@@ -47,6 +47,10 @@ This step requires at least three people. Two to lift and locate the shield and 
 7. Start the turbo pump.
 8. If after a few minutes (depends on the capacity of the pump used) there is no signs of a vacuum being drawn (either a decrease in pressure on a vacuum gauge or the nuts on the vacuum bolts between the top plate and the vacuum can becoming loose), tighten each nut a little and wait to see if a vacuum develops. Repeat this until the pressure is decreasing.
 
+:::tip
+It is important to use the vacuum pump to bring the can into contact with the top plate. Due to the imperfections in the work frame and lifting equipment, and the large diameter of the MUSCAT cryostat, simple tightening the bolts will likely mean the vacuum can is not perfectly levelled to the top plate and is then jammed in place by the bolts. This will result in vacuum leaks.
+:::
+
 ![Installing the Outer Vacuum Can](/img/close_OVC.png)
 
 ## Removing the Cryostat from the Work Frame
