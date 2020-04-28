@@ -35,3 +35,20 @@ This step requires at least three people. Two to lift and locate the shield and 
 4. Plug in the 50-Kelvin lid diode sensor at the interface between the shield and the lid, there is an orientation marking in each part of the connector.
 
 ![Installing the 50-Kelvin shield](/img/close_50K.png)
+
+## Installing the Vacuum Can & Drawing Vacuum
+
+1. With the vacuum can positioned under the cryostat (mounted on the work frame) and mounted on lifting equipment, orientate the can so the bolts coming through the top plate align with the clearance holes in the vacuum can.
+2. Inspect the rubber o-ring and groove in the vacuum can for any dirt and clean as required. Inspect the mating surface on the underside of the cryostat top plate and clean as needed.
+3. Raise the vacuum can into place so the bolts from the top plate pass through the holes in the vacuum can but not do not bring the can or the rubber o-ring into contact with the top plate. Take care not to catch or damage the 50-Kelvin shield while raising the vacuum can. A small shake of the vacuum can is normally needed to help the bolts drop through the holes.
+4. Loosely install the washers and nuts on the bolts.
+5. Slowly raise the vacuum can by tightening each nut a little at a time. Ensure the vacuum can is raised as level as possible. Continue until the gap between the vacuum can and the top plate has been reduced to approximately 3&nbsp;mm.
+6. Connect a turbo vacuum pump at the vacuum port of the cryostat and ensure the vacuum valve is opened fully.
+7. Start the turbo pump.
+8. If after a few minutes (depends on the capacity of the pump used) there is no signs of a vacuum being drawn (either a decrease in pressure on a vacuum gauge or the nuts on the vacuum bolts between the top plate and the vacuum can becoming loose), tighten each nut a little and wait to see if a vacuum develops. Repeat this until the pressure is decreasing.
+
+![Installing the Outer Vacuum Can](/img/close_OVC.png)
+
+## Removing the Cryostat from the Work Frame
+
+
