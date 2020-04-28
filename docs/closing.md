@@ -26,3 +26,12 @@ This step requires at least three people. Two to lift and locate the shield and 
 5. Plug in the 4-Kelvin lid diode sensor at the interface between the shield and the lid, there is an orientation marking in each part of the connector.
 
 ![Installing the 4-Kelvin shield](/img/close_4K.png)
+
+## Installing the 50-Kelvin Shield
+
+1. Place the 50-Kelvin shield on appropriate lifting equipment orientated so the alignment marks align on the plate edge and the top rim of the shield.
+2. Using the lifting equipment, raise the 50-Kelvin shield around the 4-Kelvin shield taking care not to catch or damage the 4-Kelvin shield.
+3. Secure the 50-Kelvin shield by installing the bolts and washers around the perimeter of the shield. The bolts should pass through the 50-Kelvin shield and be screwed into the preinstalled nuts in the shield.
+4. Plug in the 50-Kelvin lid diode sensor at the interface between the shield and the lid, there is an orientation marking in each part of the connector.
+
+![Installing the 50-Kelvin shield](/img/close_50K.png)
