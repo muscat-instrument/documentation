@@ -23,6 +23,8 @@ Before opening the cryostat, the operator should be certain that all the stages 
 9. Instal and tighten bolts through the outer-most holes in the top plate of the MUSCAT cryostat to secure the cryostat to the work frame.
 10. Rotate the gear-shaped dial on each wheel to lower the rubber foot and raise the wheel slightly off the floor.
 
+![Mounting MUSCAT on the Work Frame](/img/cryostat_add_frame.png)
+
 ## Removing the Vacuum Can
 
 1. Using lifting equipment, place a pallet under the MUSCAT cryostat in contact with the underside of the vacuum can. Ensure the lifting mechanism of the equipment is locked.
