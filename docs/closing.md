@@ -51,4 +51,10 @@ This step requires at least three people. Two to lift and locate the shield and 
 
 ## Removing the Cryostat from the Work Frame
 
-
+1. Place appropriate lifting equipment under bottom of the vacuum can to support the cryostat. The lifting equipment should be in contact with the underside of the vacuum can and locked to ensure it doesn't drop away.
+2. Remove and store the bolts from the outer perimeter of the top plate which secure the cryostat to the clam plate of the work frame.
+3. Remove and store the bolts and washers from the long edge of each clam plate. Loosen (but do not remove) the bolts in the slots on the short edge of each clam plate.
+4. Using the lifting equipment, raise the cryostat a small amount so it just lift up from the clam plates of the work frame.
+5. Moving each plate in turn a little at a time, slide the clam plates upon. Make sure the plates are slid open evenly to the work frame doesn't become unstable and tip.
+6. Using the lifting equipment, lower the cryostat through the opened clam plates.
+7. Close the clam plates by moving each plate a little at a time and alternating between the two plates. Make sure the frame does not become unbalanced and tip. Tighten the bolts in the slots located on the short edges of the clam plates and reinstall the bolts and washers on the long edges and tighten these.
