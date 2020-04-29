@@ -13,35 +13,28 @@ export const Math = ({ code }) => (
   />
 );
 
-The spectrum of MUSCAT's response has been measured using a Fourier Transform Spectrometer (FTS) and compares well the expected profile
-([Brien et al. 2018](https://arxiv.org/abs/1807.08637)).
-The measured spectrum is shown below.
+The spectrum of MUSCAT's response has been measured using a Fourier Transform Spectrometer (FTS) and compares well the expected profile ([Brien et al. 2018](https://arxiv.org/abs/1807.08637)). The measured spectrum is shown below.
 
 <img className='darkInvert image--center' alt='measured spectrum of MUSCAT compared to that expected from warm filter data and modelling' src={useBaseUrl('img/band_vs_model.png')} /><br />
 
-Here the modelled data consisted of the measured transmission profiles of the
-filters measured warm (absolute measurement) combined with the simulated
-performance of the horn block from HFSS.
+Here the modelled data consisted of the measured transmission profiles of the filters measured warm (absolute measurement) combined with the simulated performance of the horn block from HFSS.
 
 :::info Assumptions
-The FTS measurement does **not** provide an absolute measure of the response spectrum. This is because it is impossible to measure the response of the
-detectors at a cryogenic temperature in the absence of the filters etc. (the
-system would not cool).
+The FTS measurement does **not** provide an absolute measure of the response spectrum. This is because it is impossible to measure the response of the detectors at a cryogenic temperature in the absence of the filters etc. (the system would not cool).
 
-1.  The 'FTS Measured' plot has been normalised to the maximum of the 'Modelled Spectrum'.
-2.  The 'FTS Measured' plot has also been corrected by the profile of the black body source used (1200 K).
+1. The 'FTS Measured' plot has been normalised to the maximum of the 'Modelled Spectrum'.
+2. The 'FTS Measured' plot has also been corrected by the profile of the black body source used (1200 K).
 :::
 
 ### Data Availability
-The data used for the above plot are available for download here. Note the FTS
-data is raw data and does not have the assumptions mentioned above applied.
-Data are saved as `ASCII` encoded binary `numpy` arrays wrapped in dictionaries
-following Python 3 defaults.
 
--   <a href={useBaseUrl('data/MUSCAT_band_model.npy')}>Modelled Spectrum</a>
--   <a href={useBaseUrl('data/MUSCAT_band_FTS.npy')}>FTS Measured Spectrum</a>
+The data used for the above plot are available for download here. Note the FTS data is raw data and does not have the assumptions mentioned above applied. Data are saved as `ASCII` encoded binary `numpy` arrays wrapped in dictionaries following Python 3 defaults.
+
+- <a href={useBaseUrl('data/MUSCAT_band_model.npy')}>Modelled Spectrum</a>
+- <a href={useBaseUrl('data/MUSCAT_band_FTS.npy')}>FTS Measured Spectrum</a>
 
 ### FTS Analysis Script
+
 A simple script to produce the plot shown above is:
 
 ```python
@@ -87,14 +80,13 @@ ax1.plot(freqFTS, specFTSBBNorm, label='FTS Measured Spectrum')
 ```
 
 ### In-Band Power
+
 From this, the total in band power can be calculated relatively simply.
 
 :::info Assumptions
-1.  We assume that the horn block is only coupling in a single mode (as
-    designed) and thus the throughout product, _AΩ_, can be expressed as the
-    square of the designed wavelength.
-2.  The following example is for a black-body type source filling the detector's
-    field of view.
+
+1. We assume that the horn block is only coupling in a single mode (as designed) and thus the throughout product, _AΩ_, can be expressed as the square of the designed wavelength.
+2. The following example is for a black-body type source filling the detector's field of view.
 :::
 
 Following on from the script above, the in-band power can be calculated by:
@@ -111,44 +103,24 @@ Which gives a value of 200&nbsp;pW for the 300-K source used here.
 
 ### Power Using Non-Planck Approximations
 
-While the full Planck treatment should yield the most accurate calculation of
-the in-band power, it is possible to use approximations of the Planck function.
-The two most common of these both are based on the fact that the MUSCAT band is
-at much lower frequency than the peak of the black body (the Rayleigh-Jeans
-regime). To test these approximations we can compare the ratio of the
-approximated power to the power calculated using the Planck function. Here two
-approximations are used. Firstly, using the:
-[Rayleigh-Jeans Law](https://en.wikipedia.org/wiki/Rayleigh%E2%80%93Jeans_law)
+While the full Planck treatment should yield the most accurate calculation of the in-band power, it is possible to use approximations of the Planck function. The two most common of these both are based on the fact that the MUSCAT band is at much lower frequency than the peak of the black body (the Rayleigh-Jeans regime). To test these approximations we can compare the ratio of the approximated power to the power calculated using the Planck function. Here two approximations are used. Firstly, using the: [Rayleigh-Jeans Law](https://en.wikipedia.org/wiki/Rayleigh%E2%80%93Jeans_law)
+
 <Math code="P_{\mathrm{RJ}} = \int_{0}^{\infty} \frac{2\nu^2
 k_{\mathrm{B}}T}{c^2} \mathrm{d}\nu" />
 
-
-The second case is a simple assumption that the power is linear with source
-temperature:
+The second case is a simple assumption that the power is linear with source temperature:
 <Math code="P_{k_{\mathrm{B}}T} = 2k_{\mathrm{B}}T\Delta\nu" />
 
-Here <Math code="\Delta\nu" /> is the bandwidth of the spectral response. A
-standard treatment to calculate this would be to take the full width of the
-curve at half maximum the maximum value (FWHM). However, looking at the above
-figure we see that our response spectrum is heavily skewed to the low-frequency
-side and using the FWHM gives a bandwidth of 35&nbsp;GHz and omits a large
-amount of the response. To address this, in addition to the FWHM bandwidth
-we also consider the bandwidth calculated using the full width at quarter the
-maximum value (FWQM) which gives a value of 50&nbsp;GHz.
+Here <Math code="\Delta\nu" /> is the bandwidth of the spectral response. A standard treatment to calculate this would be to take the full width of the curve at half maximum the maximum value (FWHM). However, looking at the above figure we see that our response spectrum is heavily skewed to the low-frequency side and using the FWHM gives a bandwidth of 35&nbsp;GHz and omits a large amount of the response. To address this, in addition to the FWHM bandwidth we also consider the bandwidth calculated using the full width at quarter the maximum value (FWQM) which gives a value of 50&nbsp;GHz.
 
 <img className='darkInvert image--center'
-     alt='Comparison of various methors of approximating the in-band power
+     alt='Comparison of various methods of approximating the in-band power
           compared to the Planck function'
      src={useBaseUrl('img/power_approximations.png')} /><br />
 
-From the above figure we can see that above approximately 200&nbsp;K the
-Rayleigh-Jeans approximation is in good agreement with the Planck function.
-However, the linear approximation (<Math code="P_{k_{\mathrm{B}}T}" />)
-substantially over-estimates the power regardless of how the bandwidth is
-calculated.
+From the above figure we can see that above approximately 200&nbsp;K the Rayleigh-Jeans approximation is in good agreement with the Planck function. However, the linear approximation (<Math code="P_{k_{\mathrm{B}}T}" />) substantially over-estimates the power regardless of how the bandwidth is calculated.
 
-The above plot is produce with the following script, in which variable
-definitions follow on the from the examples above.
+The above plot is produce with the following script, in which variable definitions follow on the from the examples above.
 
 ```python
 def RJ(nu, T):
