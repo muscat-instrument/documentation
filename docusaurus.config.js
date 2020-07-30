@@ -13,7 +13,7 @@ module.exports = {
         alt: 'MUSCAT logo',
         src: 'img/logo.svg',
       },
-      links: [
+      items: [
         {
           to: 'docs/design',
           label: 'Design',
@@ -49,10 +49,6 @@ module.exports = {
             {
               label: 'Citing Content',
               to: 'docs/overview#citing-this-site',
-            },
-            {
-              label: 'Style Guide',
-              to: 'docs/doc1',
             },
           ],
         },
