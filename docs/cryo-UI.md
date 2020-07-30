@@ -67,14 +67,14 @@ The Home tab provides the majority of the control and information provided by th
 
 ### Controls
 
-- **RTD Setup**: An array of bundled inputs used to setup the readout and display of the RTD temperature sensors. The order in which the sensors are set up here determines the order they are listed in the plotting software and in [CLI](CLI) reports. In both cases the RTD values are appended after the diode values. Each bundle of inputs contains:
+- **RTD Setup**: An array of bundled inputs used to setup the readout and display of the RTD temperature sensors. The order in which the sensors are set up here determines the order they are listed in the plotting software and in [CLI](cryo-API.md) reports. In both cases the RTD values are appended after the diode values. Each bundle of inputs contains:
   - **Channel Name**:  Text define the name/location of the sensor
   - **Calibration File**: Text file (any extension is fine) defining the sensors calibration. Must be tab delimited with no headers. One column should contain the raw quantity to be calibrated (resistance). Points a interpolated to provide the calibration
   - **Cal Indexes**: Column indexes in calibration file for:
     - **Resis.**: Resistance (the raw quantity measured) to be calibrated
     - **Temp.**: Temperature at each point listed in the raw quantity column.
   - **Index**: Channel the sensor occupies on the FPGA readout hardware.
-- **Diode Setup**: An array of bundled inputs used to setup the readout and display of the diode temperature sensors. The order in which the sensors are set up here determines the order they are listed in the plotting software and in [CLI](CLI) reports. Each bundle of inputs contains:
+- **Diode Setup**: An array of bundled inputs used to setup the readout and display of the diode temperature sensors. The order in which the sensors are set up here determines the order they are listed in the plotting software and in [CLI](cryo-API.md) reports. Each bundle of inputs contains:
   - **Channel Name**:  Text define the name/location of the sensor
   - **Calibration File**: Text file (any extension is fine) defining the sensors calibration. Must be tab delimited with no headers. One column should contain the raw quantity to be calibrated (voltage). Points a interpolated to provide the calibration
   - **Cal Indexes**: Column indexes in calibration file for:
