@@ -43,7 +43,7 @@ const features = [
   },
 ];
 
-function Feature({imageUrl, title, link, description}) {
+function Feature({ imageUrl, title, link, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   const contUrl = useBaseUrl(link)
   return (
@@ -63,25 +63,32 @@ function Feature({imageUrl, title, link, description}) {
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
   return (
     <Layout
-      title={`${siteConfig.title}`}
       description="Support documentents and static assests for the MUSCAT instrument">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={classnames(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/overview')}>
-              Get Started
-            </Link>
+          <div className="row">
+            <div className={classnames('col col--5 col--offset-1')}>
+              <img className="hero__logo" alt={siteConfig.themeConfig.navbar.logo.atl} src={siteConfig.themeConfig.navbar.logo.src} />
+            </div>
+            <div className={classnames('col col--5')}>
+              <h1 className="hero__title">MUSCAT < br /> User Guide</h1>
+              <p className="hero__subtitle">{siteConfig.tagline}</p>
+              <div className={styles.buttons}>
+                <Link
+                  className={classnames(
+                    'button button--outline button--secondary button--lg',
+                    styles.getStarted,
+                  )}
+                  to={useBaseUrl('docs/overview')}>
+                  Get Started
+                </Link>
+              </div>
+            </div>
           </div>
+
         </div>
       </header>
       <main>
@@ -100,7 +107,7 @@ function Home() {
           </section>
         )}
       </main>
-    </Layout>
+    </Layout >
   );
 }
 

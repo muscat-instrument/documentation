@@ -61,3 +61,7 @@ html[data-theme='dark'] .alert--info * img.tex {
   margin-left: auto;
   margin-right: auto;
 }
+
+.hero__logo {
+    max-height: 20em;
+}
