@@ -12,10 +12,12 @@
     "@docusaurus/core": "^2.0.0-alpha.65",
     "@docusaurus/preset-classic": "^2.0.0-alpha.65",
     "classnames": "^2.2.6",
-    "node-fetch": "2.6.1",
-    "node-forge": "0.10.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
+  },
+  "resolutions": {
+    "@docusaurus/core/**/selfsigned": "1.10.8",
+    "@docusaurus/preset-classic/**/fbjs": "2.0.0"
   },
   "browserslist": {
     "production": [
