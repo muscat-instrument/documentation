@@ -52,19 +52,19 @@ module.exports = {
             },
           ],
         },
-//        {
-//          title: 'Community',
-//          items: [
-//            {
-//              label: 'Stack Overflow',
-//              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-//            },
-//            {
-//              label: 'Discord',
-//              href: 'https://discordapp.com/invite/docusaurus',
-//            },
-//          ],
-//        },
+        //        {
+        //          title: 'Community',
+        //          items: [
+        //            {
+        //              label: 'Stack Overflow',
+        //              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //            },
+        //            {
+        //              label: 'Discord',
+        //              href: 'https://discordapp.com/invite/docusaurus',
+        //            },
+        //          ],
+        //        },
         {
           title: 'Social',
           items: [
@@ -94,6 +94,10 @@ module.exports = {
     },
     googleAnalytics: {
       trackingID: 'UA-42876440-5',
+    },
+    algolia: {
+      apiKey: 'bb023f782f679447e0fb5f98e37e52bd',
+      indexName: 'muscat',
     },
   },
   presets: [
