@@ -25,6 +25,11 @@ module.exports = {
           position: 'left',
         },
         {
+          to: 'docs/cryo-UI',
+          label: 'Interface',
+          position: 'left',
+        },
+        {
           to: 'docs/cooldown',
           label: 'Performance',
           position: 'left',
