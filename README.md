@@ -1,4 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b1747765-cebd-4b05-8b95-5ac85c0df626/deploy-status)](https://app.netlify.com/sites/muscat-docs/deploys)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=muscat-instrument/documentation)](https://dependabot.com)
 
 # Website
 
