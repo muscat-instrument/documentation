@@ -35,6 +35,7 @@ To explore the sensitivity of the sensitivity of the MUSCAT detectors, we compar
 :::info Assumptions
 1.  Here we consider the detector absorption optical efficiency to be perfect, that is to say that we consider the absorbed power, <Math code="P_{\mathrm{abs}}" />, be equal to the in-band power multiplied by the     horn throughput, <Math code="A\Omega" />, [as previously calculated](spectrum).
 2.  The definitions of the shot noise and wave noise above respectively require a definition of a central optical frequency and an optical frequency bandwidth. For the central optical frequency we use the average of the frequency weighted by the transmission profile and for the optical frequency bandwidth we use the full width half maximum (FWHM) definition.
+3.  We assume the detector abosrbs both polarisations (true for MUSCAT). In the case of a single-polarisation detector, the wave noise is increased by a factor of root 2 in NEP.
 :::
 
 ### Shot- and Wave-Noise contributions
