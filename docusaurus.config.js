@@ -3,6 +3,8 @@ module.exports = {
   tagline: 'Static support resources for the MUSCAT instrument',
   url: 'https://muscat-docs.astro.cf.ac.uk',
   baseUrl: '/',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
   organizationName: 'muscat-instrument', // Usually your GitHub org/user name.
   projectName: 'documentation', // Usually your repo name.
@@ -12,6 +14,7 @@ module.exports = {
       logo: {
         alt: 'MUSCAT logo',
         src: 'img/logo.png',
+        srcDark: 'img/logo.png',
       },
       items: [
         {
