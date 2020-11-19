@@ -14,6 +14,7 @@ module.exports = {
       logo: {
         alt: 'MUSCAT logo',
         src: 'img/logo.png',
+        srcDark: 'img/logo.png',
       },
       items: [
         {
