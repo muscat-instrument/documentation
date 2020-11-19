@@ -1,5 +1,5 @@
 import React from 'react';
-import classnames from 'classnames';
+import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -47,7 +47,7 @@ function Feature({ imageUrl, title, link, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   const contUrl = useBaseUrl(link)
   return (
-    <div className={classnames('col col--4', styles.feature)}>
+    <div className={clsx('col col--4', styles.feature)}>
       <a className={'home-feature-link'} href={contUrl}>
         {imgUrl && (
           <div className="text--center">
@@ -67,18 +67,18 @@ function Home() {
   return (
     <Layout
       description="Support documentents and static assests for the MUSCAT instrument">
-      <header className={classnames('hero hero--primary', styles.heroBanner)}>
+      <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <div className="row">
-            <div className={classnames('col col--5 col--offset-1')}>
+            <div className={clsx('col col--5 col--offset-1')}>
               <img className="hero__logo" alt={siteConfig.themeConfig.navbar.logo.atl} src={siteConfig.themeConfig.navbar.logo.src} />
             </div>
-            <div className={classnames('col col--5')}>
+            <div className={clsx('col col--5')}>
               <h1 className="hero__title">MUSCAT < br /> User Guide</h1>
               <p className="hero__subtitle">{siteConfig.tagline}</p>
               <div className={styles.buttons}>
                 <Link
-                  className={classnames(
+                  className={clsx(
                     'button button--outline button--secondary button--lg',
                     styles.getStarted,
                   )}
