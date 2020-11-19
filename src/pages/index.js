@@ -14,12 +14,12 @@ const features = [
     description: (
       <>
         Information about the design and construction of the MUSCAT instrument
-        along with instuctions for operation.
+        along with instructions for operation.
       </>
     ),
   },
   {
-    title: <>Interfacing and Anaylsis</>,
+    title: <>Interfacing and Analysis</>,
     imageUrl: 'img/undraw_code_typing.svg',
     link: 'docs/spectrum',
     description: (
@@ -66,7 +66,7 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      description="Support documentents and static assests for the MUSCAT instrument">
+      description="Support documents and static assets for the MUSCAT instrument">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <div className="row">
