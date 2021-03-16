@@ -18,7 +18,7 @@ During commissioning, an issue was noted where diode ordering appears to slip du
 ### Treatment
 
 1. Stop the current cycling and select "Warm to 4 K"
-2. Restart the [MC-CAL](cryo.UI) program and restart cycling. If requested, confirm the heat switch is open
+2. Restart the [MC-CAL](cryo-UI) program and restart cycling. If requested, confirm the heat switch is open
 
 ### Other notes
 
