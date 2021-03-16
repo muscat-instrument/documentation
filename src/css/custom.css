@@ -45,14 +45,17 @@ html[data-theme='dark'] .button.button--secondary.button--outline.button--lg:not
     text-decoration: none;
 }
 
-html[data-theme='dark'] img.tex,
-html[data-theme='dark'] img.darkInvert,
-.alert--info * img.tex {
+html[data-theme='dark'] img.darkInvert {
     filter:invert(1);
 }
 
+html[data-theme='dark'] img.tex,
+.alert--info * img.tex {
+    filter:invert(0);
+}
+
 html[data-theme='dark'] .alert--info * img.tex {
-    filter:invert(0) !important;
+    filter:invert(1) !important;
 }
 
 .image--center {
