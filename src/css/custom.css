@@ -7,17 +7,16 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #8100e3;
-  --ifm-color-primary-dark: #7400cc;
-  --ifm-color-primary-darker: #6e00c1;
-  --ifm-color-primary-darkest: #5a009f;
-  --ifm-color-primary-light: #8e00fa;
-  --ifm-color-primary-lighter: #9406ff;
-  --ifm-color-primary-lightest: #a228ff;
+  --ifm-color-primary: #8938D9;
+  --ifm-color-primary-dark: #8128D0;
+  --ifm-color-primary-darker: #7D17CC;
+  --ifm-color-primary-darkest: #7A07C9;
+  --ifm-color-primary-light: #9248E3;
+  --ifm-color-primary-lighter: #A25EF6;
+  --ifm-color-primary-lightest: #A867FC;
   --ifm-code-font-size: 95%;
   --ifm-footer-link-hover-color: var(--ifm-footer-link-color);
 }
-
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
@@ -46,14 +45,17 @@ html[data-theme='dark'] .button.button--secondary.button--outline.button--lg:not
     text-decoration: none;
 }
 
-html[data-theme='dark'] img.tex,
-html[data-theme='dark'] img.darkInvert,
-.alert--info * img.tex {
+html[data-theme='dark'] img.darkInvert {
     filter:invert(1);
 }
 
+html[data-theme='dark'] img.tex,
+.alert--info * img.tex {
+    filter:invert(0);
+}
+
 html[data-theme='dark'] .alert--info * img.tex {
-    filter:invert(0) !important;
+    filter:invert(1) !important;
 }
 
 .image--center {
@@ -64,4 +66,14 @@ html[data-theme='dark'] .alert--info * img.tex {
 
 .hero__logo {
     max-height: 20em;
+}
+
+table-of-contents__link:hover, .table-of-contents__link:hover code,
+.table-of-contents__link--active, .table-of-contents__link--active code {
+    color: #7D17CC;
+}
+
+html[data-theme='dark'] table-of-contents__link:hover, html[data-theme='dark'] .table-of-contents__link:hover code,
+html[data-theme='dark'] .table-of-contents__link--active, html[data-theme='dark'] .table-of-contents__link--active code {
+    color: #A25EF6;
 }
