@@ -25,3 +25,9 @@
   to = "/docs/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/gallery"
+  to = "https://muscat-instrument.github.io/gallery"
+  status = 301
+  force = true
