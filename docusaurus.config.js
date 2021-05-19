@@ -38,6 +38,11 @@ module.exports = {
           position: 'left',
         },
         {
+          href: 'https://muscat-instrument.github.io/gallery',
+          label: 'Gallery',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/muscat-instrument',
           label: 'GitHub',
           position: 'right',
