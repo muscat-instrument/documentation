@@ -38,6 +38,13 @@ module.exports = {
           position: 'left',
         },
         {
+          label: "Commissioning",
+          position: "left",
+          items: [
+            {label: "Mechanical", to: "docs/shipping-braces"}
+          ]
+        },
+        {
           href: 'https://muscat-instrument.github.io/gallery',
           label: 'Gallery',
           position: 'right',
