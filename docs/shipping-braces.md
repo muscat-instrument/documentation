@@ -4,6 +4,7 @@ title: 'Removal of Shipping Braces'
 sidebar_label: Shipping Braces
 ---
 
+
 Prior to being shipped from Cardiff, a number of shipping braces were installed within MUSCAT to help protect the weak mechanical supports from damage during shipping. Prior to use, these will need to be carefully removed and some components reinstalled within MUSCAT.
 
 :::tip
