@@ -4,6 +4,7 @@ title: 'Removal of Shipping Braces'
 sidebar_label: Shipping Braces
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Prior to being shipped from Cardiff, a number of shipping braces were installed within MUSCAT to help protect the weak mechanical supports from damage during shipping. Prior to use, these will need to be carefully removed and some components reinstalled within MUSCAT.
 
@@ -15,7 +16,17 @@ Fixings and other parts that need installing after the braces have been removed 
 
 The braces support the bottom end of the 50 K shield adding radial struts which brace the shield to the inside of the vacuum shield. The braces brace against the inner lining of the vacuum shield and a foam padding block is placed between the lining and the inner wall of the vacuum can.
 
+<figure>
+<img className='image--center' alt='50 K can with braces installed' src={useBaseUrl('img/braces/50Kbraced_Small.jpg')} />
+<figcaption>Braces installed between the vacuum shield and the 50 K shield (representative of 4 K and 450 mK stages as well).</figcaption>
+</figure>
+
 ### Brace 30
+
+<figure>
+<img className='image--center' alt='Brace 30 with packing spacer' src={useBaseUrl('img/braces/Brace30_Small.jpg')} />
+<figcaption>Packing brace 30 against the inner wall of anti-magnetic shielding with packing spacer between shielding and the OVC wall.</figcaption>
+</figure>
 
 **Prior To Removal**: Note the position of the alignment marks on the bottom plate of the vacuum shield to help when reinstalling the plate. With MUSCAT on the working frame, slowly vent the vacuum via the side port, the ingression of air to the cryostat should be as slow as possible and only just audible. With the bottom plate of the cryostat fully supported, remove and store the bolts securing this plate to the cryostat. Slowly lower the plate away from the main body of the cryostat ensuring the O-ring remains within the groove in the plate.
 
@@ -30,12 +41,22 @@ Take care to protect O-ring and vacuum surfaces while removing bottom plate.
 
 ### Brace 29
 
+<figure>
+<img className='image--center' alt='Brace 29 with packing spacer' src={useBaseUrl('img/braces/Brace29_Small.jpg')} />
+<figcaption>Packing brace 29 against the inner wall of anti-magnetic shielding with packing spacer between shielding and the OVC wall.</figcaption>
+</figure>
+
 **To Remove**: Loosen 2 x M4 bolts and slide brace towards the centre of the cryostat, away from the inner wall of the 4 K can. Remove black foam shipping padding, marked with red tape, located between OVC inner wall and lining. Remove 2 x M4 bolts fully and remove brace. Take care not to damage lining when removing brace.
 
 **After Removal**: From Bag 29 (in box):
 2 x M4 bolts with spring washer and flat washer into two bolt holes vacated by removal of brace.
 
 ### Brace 28
+
+<figure>
+<img className='image--center' alt='Brace 28 with packing spacer' src={useBaseUrl('img/braces/Brace28_Small.jpg')} />
+<figcaption>Packing brace 28 against the inner wall of anti-magnetic shielding with packing spacer between shielding and the OVC wall.</figcaption>
+</figure>
 
 **To Remove**: Loosen 2 x M4 bolts and slide brace towards the centre of the cryostat, away from the inner wall of the 4 K can. Remove black foam shipping padding, marked with red tape, located between OVC inner wall and lining. Remove 2 x M4 bolts fully and remove brace. Take care not to damage lining when removing brace.
 
@@ -44,6 +65,11 @@ Take care to protect O-ring and vacuum surfaces while removing bottom plate.
 
 ### Brace 27
 
+<figure>
+<img className='image--center' alt='Brace 27 with packing spacer' src={useBaseUrl('img/braces/Brace27_Small.jpg')} />
+<figcaption>Packing brace 27 against the inner wall of anti-magnetic shielding with packing spacer between shielding and the OVC wall.</figcaption>
+</figure>
+
 **To Remove**: Loosen 2 x M4 bolts and slide brace towards the centre of the cryostat, away from the inner wall of the 4 K can. Remove black foam shipping padding, marked with red tape, located between OVC inner wall and lining. Remove 2 x M4 bolts fully and remove brace. Take care not to damage lining when removing brace.
 
 **After Removal**: From Bag 27 (in box):
@@ -51,12 +77,22 @@ Take care to protect O-ring and vacuum surfaces while removing bottom plate.
 
 ### Brace 26
 
+<figure>
+<img className='image--center' alt='Brace 26 with packing spacer' src={useBaseUrl('img/braces/Brace26_Small.jpg')} />
+<figcaption>Packing brace 26 against the inner wall of anti-magnetic shielding with packing spacer between shielding and the OVC wall.</figcaption>
+</figure>
+
 **To Remove**: Loosen 2 x M4 bolts and slide brace towards the centre of the cryostat, away from the inner wall of the 4 K can. Remove black foam shipping padding, marked with red tape, located between OVC inner wall and lining. Remove 2 x M4 bolts fully and remove brace. Take care not to damage lining when removing brace.
 
 **After Removal**: From Bag 26 (in box):
 2 x M4 bolts with spring washer and flat washer into two bolt holes vacated by removal of brace.
 
 ### Brace 25
+
+<figure>
+<img className='image--center' alt='Brace 25 with packing spacer' src={useBaseUrl('img/braces/Brace25_Small.jpg')} />
+<figcaption>Packing brace 25 against the inner wall of anti-magnetic shielding with packing spacer between shielding and the OVC wall.</figcaption>
+</figure>
 
 **To Remove**: Loosen 2 x M4 bolts and slide brace towards the centre of the cryostat, away from the inner wall of the 4 K can. Remove black foam shipping padding, marked with red tape, located between OVC inner wall and lining. Remove 2 x M4 bolts fully and remove brace. Take care not to damage lining when removing brace.
 
@@ -73,6 +109,11 @@ The outer vacuum can should now be [removed as normal](opening#removing-the-vacu
 
 ### Brace 24
 
+<figure>
+<img className='image--center' alt='Brace 24 between 50 K and 4 K shields' src={useBaseUrl('img/braces/Brace24_Small.jpg')} />
+<figcaption>Packing brace 24 against the inner wall of 50 Kelvin shield.</figcaption>
+</figure>
+
 **Prior To Removal**: Support 50 K can's bottom plate from underneath and remove perimeter bolts and store. Also remove and store diode. With all bolts removed lower lid of 50 K can.
 
 **To Remove**: Loosen 2 x M4 bolts and slide brace towards the centre of the cryostat, away from the inner wall of the 4 K can. Remove 2 x M4 bolts fully and remove brace. Take care not to damage lining when removing brace.
@@ -81,11 +122,21 @@ The outer vacuum can should now be [removed as normal](opening#removing-the-vacu
 
 ### Brace 23
 
+<figure>
+<img className='image--center' alt='Brace 23 between 50 K and 4 K shields' src={useBaseUrl('img/braces/Brace23_Small.jpg')} />
+<figcaption>Packing brace 23 against the inner wall of 50 Kelvin shield.</figcaption>
+</figure>
+
 **To Remove**: Loosen 2 x M4 bolts and slide brace towards the centre of the cryostat, away from the inner wall of the 4 K can. Remove 2 x M4 bolts fully and remove brace. Take care not to damage lining when removing brace.
 
 **After Removal**: From Bag 23 (in box): 2 x M4 bolts with spring washer and flat washer into two bolt holes vacated by removal of brace
 
 ### Brace 22
+
+<figure>
+<img className='image--center' alt='Brace 22 between 50 K and 4 K shields' src={useBaseUrl('img/braces/Brace22_Small.jpg')} />
+<figcaption>Packing brace 22 against the inner wall of 50 Kelvin shield.</figcaption>
+</figure>
 
 **To Remove**: Loosen 2 x M4 bolts and slide brace towards the centre of the cryostat, away from the inner wall of the 4 K can. Remove 2 x M4 bolts fully and remove brace. Take care not to damage lining when removing brace.
 
@@ -93,17 +144,32 @@ The outer vacuum can should now be [removed as normal](opening#removing-the-vacu
 
 ### Brace 21
 
+<figure>
+<img className='image--center' alt='Brace 21 between 50 K and 4 K shields' src={useBaseUrl('img/braces/Brace21_Small.jpg')} />
+<figcaption>Packing brace 21 against the inner wall of 50 Kelvin shield.</figcaption>
+</figure>
+
 **To Remove**: Loosen 2 x M4 bolts and slide brace towards the centre of the cryostat, away from the inner wall of the 4 K can. Remove 2 x M4 bolts fully and remove brace. Take care not to damage lining when removing brace.
 
 **After Removal**: From Bag 21 (in box): 2 x M4 bolts with spring washer and flat washer into two bolt holes vacated by removal of brace.
 
 ### Brace 20
 
+<figure>
+<img className='image--center' alt='Brace 20 between 50 K and 4 K shields' src={useBaseUrl('img/braces/Brace20_Small.jpg')} />
+<figcaption>Packing brace 20 against the inner wall of 50 Kelvin shield.</figcaption>
+</figure>
+
 **To Remove**: Loosen 2 x M4 bolts and slide brace towards the centre of the cryostat, away from the inner wall of the 4 K can. Remove 2 x M4 bolts fully and remove brace. Take care not to damage lining when removing brace.
 
 **After Removal**: From Bag 20 (in box): 2 x M4 bolts with spring washer and flat washer into two bolt holes vacated by removal of brace.
 
 ### Brace 19
+
+<figure>
+<img className='image--center' alt='Brace 19 between 50 K and 4 K shields' src={useBaseUrl('img/braces/Brace19_Small.jpg')} />
+<figcaption>Packing brace 19 against the inner wall of 50 Kelvin shield.</figcaption>
+</figure>
 
 **To Remove**: Loosen 2 x M4 bolts and slide brace towards the centre of the cryostat, away from the inner wall of the 4 K can. Remove 2 x M4 bolts fully and remove brace. Take care not to damage lining when removing brace.
 
@@ -113,6 +179,11 @@ The outer vacuum can should now be [removed as normal](opening#removing-the-vacu
 
 ### Brace 18
 
+<figure>
+<img className='image--center' alt='Brace 18 between 4 K and 450 mK shields' src={useBaseUrl('img/braces/Brace18_Small.jpg')} />
+<figcaption>Packing brace 18 against the inner wall of 4 Kelvin shield.</figcaption>
+</figure>
+
 **Prior To Removal**: Not the position of the diode thermometer and the markings on the shield. With the 4 K shield's bottom plate supported from underneath, remove the plate's bolts and store. Also remove and store diode. Lower plate away from shield. 
 
 **To Remove**: Loosen 2 x M4 bolts and slide brace towards the centre of the cryostat, away from the inner wall of the 4 K can. Remove 2 x M4 bolts fully and remove brace. Take care not to damage lining when removing brace.
@@ -121,11 +192,21 @@ The outer vacuum can should now be [removed as normal](opening#removing-the-vacu
 
 ### Brace 17
 
+<figure>
+<img className='image--center' alt='Brace 17 between 4 K and 450 mK shields' src={useBaseUrl('img/braces/Brace17_Small.jpg')} />
+<figcaption>Packing brace 17 against the inner wall of 4 Kelvin shield.</figcaption>
+</figure>
+
 **To Remove**: Loosen 2 x M4 bolts and slide brace towards the centre of the cryostat, away from the inner wall of the 4 K can. Remove 2 x M4 bolts fully and remove brace. Take care not to damage lining when removing brace.
 
 **After Removal**: From Bag 17 (in box): 2 x M4 bolts with spring washer and flat washer into two bolt holes vacated by removal of brace.
 
 ### Brace 16
+
+<figure>
+<img className='image--center' alt='Brace 16 between 4 K and 450 mK shields' src={useBaseUrl('img/braces/Brace16_Small.jpg')} />
+<figcaption>Packing brace 16 against the inner wall of 4 Kelvin shield.</figcaption>
+</figure>
 
 **To Remove**: Loosen 2 x M4 bolts and slide brace towards the centre of the cryostat, away from the inner wall of the 4 K can. Remove 2 x M4 bolts fully and remove brace. Take care not to damage lining when removing brace.
 
@@ -133,17 +214,32 @@ The outer vacuum can should now be [removed as normal](opening#removing-the-vacu
 
 ### Brace 15
 
+<figure>
+<img className='image--center' alt='Brace 15 between 4 K and 450 mK shields' src={useBaseUrl('img/braces/Brace15_Small.jpg')} />
+<figcaption>Packing brace 15 against the inner wall of 4 Kelvin shield.</figcaption>
+</figure>
+
 **To Remove**: Loosen 2 x M4 bolts and slide brace towards the centre of the cryostat, away from the inner wall of the 4 K can. Remove 2 x M4 bolts fully and remove brace. Take care not to damage lining when removing brace.
 
 **After Removal**: From Bag 15 (in box): 2 x M4 bolts with spring washer and flat washer into two bolt holes vacated by removal of brace.
 
 ### Brace 14
 
+<figure>
+<img className='image--center' alt='Brace 14 between 4 K and 450 mK shields' src={useBaseUrl('img/braces/Brace14_Small.jpg')} />
+<figcaption>Packing brace 14 against the inner wall of 4 Kelvin shield.</figcaption>
+</figure>
+
 **To Remove**: Loosen 2 x M4 bolts and slide brace towards the centre of the cryostat, away from the inner wall of the 4 K can. Remove 2 x M4 bolts fully and remove brace. Take care not to damage lining when removing brace.
 
 **After Removal**: From Bag 14 (in box): 2 x M4 bolts with spring washer and flat washer into two bolt holes vacated by removal of brace.
 
 ### Brace 13
+
+<figure>
+<img className='image--center' alt='Brace 13 between 4 K and 450 mK shields' src={useBaseUrl('img/braces/Brace13_Small.jpg')} />
+<figcaption>Packing brace 13 against the inner wall of 4 Kelvin shield.</figcaption>
+</figure>
 
 **To Remove**: Loosen 2 x M4 bolts and slide brace towards the centre of the cryostat, away from the inner wall of the 4 K can. Remove 2 x M4 bolts fully and remove brace. Take care not to damage lining when removing brace.
 
@@ -159,12 +255,17 @@ Extreme care is needed when removing the 450 mK shield to avoid catching/damagin
 
 ### Brace 12
 
+<figure>
+<img className='image--center' alt='Brace 12 supporting stainless crossbeam' src={useBaseUrl('img/braces/Brace12_Small.jpg')} />
+<figcaption>Packing brace 12 bracing the stainless steel crossbeam between the 4 K plate and the 1 K ring.</figcaption>
+</figure>
+
 **Location**: Near Coax Cabling
 
 **To Remove**: Remove red bolt connecting two parts of brace, removing bolt, spring washer and flat washer. Remove lower brace segment, removing bolt, spring washer, flat washer and nut. Remove upper brace removing bolt and flat washer.
 
 :::info
-this should be possible without removal of coax. If coax needs to be removed, extreme care should be taken not to break the solder joints.
+This should be possible without removal of coax. If coax needs to be removed, extreme care should be taken not to break the solder joints.
 :::
 
 **After Removal**: From Bag 12 (in box):
@@ -172,6 +273,11 @@ this should be possible without removal of coax. If coax needs to be removed, ex
 1 x shorter M3 bolt, through upper cross-beam foot and into 4 K plate. With spring and flat washer.
 
 ### Brace 11
+
+<figure>
+<img className='image--center' alt='Brace 11 supporting stainless crossbeam' src={useBaseUrl('img/braces/Brace11_Small.jpg')} />
+<figcaption>Packing brace 11 bracing the stainless steel crossbeam between the 4 K plate and the 1 K ring.</figcaption>
+</figure>
 
 **Location**: Near Mechanical Heat Switch
 
@@ -190,6 +296,11 @@ Re attached cryo loom to cross brace and secure with Kapton tape if needed.
 
 ### Brace 10
 
+<figure>
+<img className='image--center' alt='Brace 10 supporting stainless crossbeam' src={useBaseUrl('img/braces/Brace10_Small.jpg')} />
+<figcaption>Packing brace 10 bracing the stainless steel crossbeam between the 4 K plate and the 1 K ring.</figcaption>
+</figure>
+
 **Location**: Near Gas-Gap Heatswitch
 
 **To Remove**: Remove red bolt connecting two parts of brace, removing bolt, spring washer and flat washer.
@@ -204,6 +315,11 @@ Take care of gas-gap heat switch, nearby sapphire joint (Brace Number 6) and 4 K
 1 x shorter M3 bolt, through upper cross-beam foot and into 4 K plate. With spring and flat washer.
 
 ### Brace 9
+
+<figure>
+<img className='image--center' alt='Brace 9 supporting stainless crossbeam' src={useBaseUrl('img/braces/Brace9_Small.jpg')} />
+<figcaption>Packing brace 9 bracing the stainless steel crossbeam between the 4 K plate and the 1 K ring.</figcaption>
+</figure>
 
 **Location**: Near CC7 Fridge
 
@@ -221,6 +337,11 @@ Take care of dilutor expansion tank, wiring loom and nearby thermometer.
 ## 450 mK Plate
 
 ### Brace 8
+
+<figure>
+<img className='image--center' alt='Brace 8 supporting sapphire joint' src={useBaseUrl('img/braces/Brace8_Small.jpg')} />
+<figcaption>Packing brace 8 sapphire joint between the 1 K ring and the 450 mK plate.</figcaption>
+</figure>
 
 **Location**: Near Mechanical Heat Switch
 
@@ -240,6 +361,11 @@ After install, re connect micro-D 9 pin and secure wiring. If removed, replace f
 
 ### Brace 7
 
+<figure>
+<img className='image--center' alt='Brace 7 supporting sapphire joint' src={useBaseUrl('img/braces/Brace7_Small.jpg')} />
+<figcaption>Packing brace 7 sapphire joint between the 1 K ring and the 450 mK plate.</figcaption>
+</figure>
+
 **Location**: Near CC4 Fridge
 
 **To Remove**: 2 x M3 outboard: remove M3 nuts and M3 and M4 washers from underside. From topside remove M3x25 bolt and flat washer.
@@ -256,6 +382,11 @@ After install, reroute and secure wire from fridge to ring on top of sapphire jo
 
 ### Brace 6
 
+<figure>
+<img className='image--center' alt='Brace 6 supporting sapphire joint' src={useBaseUrl('img/braces/Brace6_Small.jpg')} />
+<figcaption>Packing brace 6 sapphire joint between the 1 K ring and the 450 mK plate.</figcaption>
+</figure>
+
 **Location**: Near CC7 Fridge
 
 **To Remove**: 2 x M3 outboard: remove M3 nuts and M3 and M4 washers from underside. From topside remove M3x25 bolt and flat washer.
@@ -271,6 +402,11 @@ Take care of CC7 fridge and wiring
 
 ### Brace 5
 
+<figure>
+<img className='image--center' alt='Brace 5 supporting sapphire joint' src={useBaseUrl('img/braces/Brace5_Small.jpg')} />
+<figcaption>Packing brace 5 sapphire joint between the 1 K ring and the 450 mK plate.</figcaption>
+</figure>
+
 **Location**: Near Coax Cabling
 
 **To Remove**: 2 x M3 outboard: remove M3 nuts and M3 and M4 washers from underside. From topside remove M3x25 bolt and flat washer.
@@ -284,6 +420,11 @@ Care to be taken of coax and wiring on 1 K ring.
 
 ### Brace 4
 
+<figure>
+<img className='image--center' alt='Brace 4 supporting sapphire joint' src={useBaseUrl('img/braces/Brace4_Small.jpg')} />
+<figcaption>Packing brace 4 sapphire joint between the cold optics ring and the focal plane.</figcaption>
+</figure>
+
 **To Remove**: 2 x M3 bolts at sapphire joints, each with flat and spring washer.
 2x M3 stud, one at MD-F-A with nut only on array side and spring washer, flat washer and nut on mirror side. One at MD-F-Centre with flat washer, spring washer and nut on both sides. 
 
@@ -292,6 +433,11 @@ Short bolts into sapphire joint bracket.
 Long bolts into array (from SMA side into structure to match rest). Bolt at MD-F-B flat washer only, bolt at MD-F-centre flat and spring washers.
 
 ### Brace 3
+
+<figure>
+<img className='image--center' alt='Brace 3 supporting sapphire joint' src={useBaseUrl('img/braces/Brace3_Small.jpg')} />
+<figcaption>Packing brace 3 sapphire joint between the cold optics ring and the focal plane.</figcaption>
+</figure>
 
 **To Remove**: 2 x M3 bolts at sapphire joints, each with flat and spring washer.
 2x M3 stud, one at MD-M-B with nut only on array side and spring washer, flat washer and nut on mirror side. One at MD-M-Centre with flat washer, spring washer and nut on both sides. 
@@ -303,6 +449,11 @@ Long bolts into array (from SMA side into structure to match rest). Bolt at MD-M
 
 ### Brace 2
 
+<figure>
+<img className='image--center' alt='Brace 2 supporting sapphire joint' src={useBaseUrl('img/braces/Brace2_Small.jpg')} />
+<figcaption>Packing brace 2 sapphire joint between the cold optics ring and the focal plane.</figcaption>
+</figure>
+
 **To Remove**: 2 x M3 bolts at sapphire joints, each with flat and spring washer.
 2x M3 stud, one at MD-M-B with nut only on array side and spring washer, flat washer and nut on mirror side. One at MD-M-Ref with flat washer, spring washer and nut on both sides. 
 
@@ -311,10 +462,15 @@ Short bolts into sapphire joint bracket
 Long bolts into array (from SMA side into structure to match rest). Bolt at MD-M-A flat washer only, bolt at MD-M-Ref flat and spring washers.
 
 :::warning
-Take care to avoid FP heater wiring
+Take care to avoid focal plane heater wiring
 :::
 
 ### Brace 1
+
+<figure>
+<img className='image--center' alt='Brace 1 supporting sapphire joint' src={useBaseUrl('img/braces/Brace1_Small.jpg')} />
+<figcaption>Packing brace 1 sapphire joint between the cold optics ring and the focal plane.</figcaption>
+</figure>
 
 **To Remove**: 2 x M3 bolts at sapphire joints, each with flat and spring washer.
 2 x M3 stud, one at MD-F-A with flat washer and nut on array side and spring washer, flat washer and nut on mirror side. One at MD-F-Ref with flat washer, spring washer and nut on both sides. 
