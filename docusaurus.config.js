@@ -41,7 +41,8 @@ module.exports = {
           label: "Commissioning",
           position: "left",
           items: [
-            {label: "Mechanical", to: "docs/shipping-braces"}
+            { label: "Working Frame", to: "docs/working-frame" },
+            { label: "Mechanical", to: "docs/shipping-braces" }
           ]
         },
         {
