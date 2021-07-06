@@ -18,7 +18,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/design',
+          to: 'docs/opening',
           label: 'Design',
           position: 'left',
         },
