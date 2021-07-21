@@ -29,11 +29,11 @@ The table below gives the resistances measured in Cardiff prior to shipping.
 
 | + | - | MD-M-A | MD-M-B | MD-J-A | MD-J-B | MD-F-A | MD-F-B | 
 | -- | -- | -- | --  | -- | -- | -- | -- |
-| C1 | C2 | | | | | | |
-| C1 | G | | | | | | |
-| G | C1 | | | | | | |
-| C2 | C1 | | | | | | |
-| C2 | G | | | | | | |
-| G | C2 | | | | | | |
+| C1 | C2 | 23.5 kΩ | 23.7 kΩ | 32.9  kΩ | 34.0 kΩ | 16.1 kΩ | 16.4 kΩ |
+| C1 | G | 52.4 kΩ | 62.2 kΩ | 56.4 kΩ | 54.7 kΩ | 28.2 kΩ | 28.7 kΩ |
+| G | C1 | 105.3 kΩ | 117.0 kΩ | 164.0 kΩ | 128.0 kΩ | 35.3 kΩ | 35.5 kΩ |
+| C2 | C1 | 23.5 kΩ | 23.7 kΩ | 33.0 kΩ | 34.2 kΩ | 16.0 kΩ | 16.2 kΩ |
+| C2 | G | 56.1 kΩ | 47.2 kΩ | 49.0 kΩ | 46.7 kΩ | 17.0 kΩ | 16.9 kΩ |
+| G | C2 | 155.6 kΩ | 110.6 kΩ | 148.0 kΩ | 96.4 kΩ | 30.3 kΩ | 29.2 kΩ |
 
 The centre-to-ground impedances may be different than measured in Cardiff due to different meters using different biases. The key things to check is that there is centre-to-ground resistance and ground-to-centre impedances are not the same and that the C1-G and C2-G resistances do not add up to the C1-C2 resistance. Both of these are signs of a short, this is unlikely to have developed during shipping. The more likely case is array damage, a high resistance or open circuit in the C1-C2 measurement would show damage to the array.
