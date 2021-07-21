@@ -42,7 +42,8 @@ module.exports = {
           position: "left",
           items: [
             { label: "Working Frame", to: "docs/working-frame" },
-            { label: "Mechanical", to: "docs/shipping-braces" }
+            { label: "Mechanical", to: "docs/shipping-braces" },
+            { label: "Checking Arrays", to: "docs/array-tests" }
           ]
         },
         {
