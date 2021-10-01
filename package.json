@@ -17,7 +17,8 @@
     "react-dom": "^17.0.2"
   },
   "resolutions": {
-    "immer": "^9.0.6"
+    "immer": "^9.0.6",
+    "set-value": "^4.0.1"
   },
   "browserslist": {
     "production": [
