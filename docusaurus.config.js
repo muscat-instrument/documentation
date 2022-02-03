@@ -114,9 +114,6 @@ module.exports = {
         </a>
       </p>`,
     },
-    googleAnalytics: {
-      trackingID: 'UA-42876440-5',
-    },
     algolia: {
       apiKey: 'bb023f782f679447e0fb5f98e37e52bd',
       indexName: 'muscat',
@@ -133,6 +130,9 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        googleAnalytics: {
+          trackingID: 'UA-42876440-5',
         },
       },
     ],
