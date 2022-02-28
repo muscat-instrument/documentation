@@ -115,6 +115,7 @@ module.exports = {
       </p>`,
     },
     algolia: {
+      appId: '6C3UDYDWEM',
       apiKey: 'bb023f782f679447e0fb5f98e37e52bd',
       indexName: 'muscat',
     },
