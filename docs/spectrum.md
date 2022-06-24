@@ -30,8 +30,8 @@ The FTS measurement does **not** provide an absolute measure of the response spe
 
 The data used for the above plot are available for download here. Note the FTS data is raw data and does not have the assumptions mentioned above applied. Data are saved as `ASCII` encoded binary `numpy` arrays wrapped in dictionaries following Python 3 defaults.
 
-- <a href={useBaseUrl('data/MUSCAT_band_model.npy')}>Modelled Spectrum</a>
-- <a href={useBaseUrl('data/MUSCAT_band_FTS.npy')}>FTS Measured Spectrum</a>
+- <a href={useBaseUrl('data/muscat_band_model.npy')}>Modelled Spectrum</a>
+- <a href={useBaseUrl('data/muscat_band_fts.npy')}>FTS Measured Spectrum</a>
 
 ### FTS Analysis Script
 
