@@ -3,6 +3,7 @@ module.exports = {
   tagline: 'Static support resources for the MUSCAT instrument',
   url: 'https://muscat-docs.astro.cf.ac.uk',
   baseUrl: '/',
+  staticDirectories: ['static'],
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',

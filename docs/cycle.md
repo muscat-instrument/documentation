@@ -78,8 +78,8 @@ The second set of parameters defines values like the set temperature each pump i
 ### Example Files
 Example configuration files, based on the currently used parameters are available for download here.
 
--   <a href={useBaseUrl('data/Indexes_default.ini')}>Hardware Parameters</a>
--   <a href={useBaseUrl('data/Params_default.ini')}>Cycle Parameters</a>
+-   <a href={useBaseUrl('data/indexes_default.ini')}>Hardware Parameters</a>
+-   <a href={useBaseUrl('data/params_default.ini')}>Cycle Parameters</a>
 
 ## Cycle State Flow
 
