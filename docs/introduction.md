@@ -21,9 +21,9 @@ This website is based on a [GitHub repository](https://www.github.com/muscat-ins
 This site is the work of the MUSCAT collaboration and is made openly available for the benefit of users of MUSCAT and the community as a whole. It is made available under the terms of the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) licence excepting where specifically noted.
 
 We kindly ask authors referencing this site to cite it as:<br />
-> MUSCAT Collaboration (2021). The MUSCAT User Guide \[online\]. Available at: <https://muscat-docs.astro.cf.ac.uk>.
+> MUSCAT Collaboration (2021). The MUSCAT User Guide \[online\]. Available at: [https://muscat-docs.astro.cf.ac.uk](https://muscat-docs.astro.cf.ac.uk).
 
 Some pages of this site contain an _author(s) to cite_ line, when citing pages please use the following citation replacing the first "author(s)" as needed.<br />
-> Author(s) and the MUSCAT Collaboration (2021). The MUSCAT User Guide \[online\]. Available at: <https://muscat-docs.astro.cf.ac.uk>.
+> Author(s) and the MUSCAT Collaboration (2021). The MUSCAT User Guide \[online\]. Available at: [https://muscat-docs.astro.cf.ac.uk](https://muscat-docs.astro.cf.ac.uk).
 
 An up to date list of the MUSCAT collaboration can be downloaded [here](https://github.com/muscat-instrument/members/releases/latest/download/member_list.pdf) as a PDF or in various formats [here](https://github.com/muscat-instrument/members/releases/latest).
