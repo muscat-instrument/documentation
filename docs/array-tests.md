@@ -1,7 +1,7 @@
 ---
-id: array-tests
-title: Array Checks
-sidebar_label: Array Checks
+id: "array-tests"
+title: "Array Checks"
+sidebar_label: "Array Checks"
 ---
 
 After removal of the [shipping braces](shipping-braces) the DC impedance of the arrays should be measured. To do this complete the following steps:
