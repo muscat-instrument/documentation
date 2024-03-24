@@ -1,6 +1,6 @@
 ---
 id: cryo-UI
-title: 'Cryogenics: User Interface'
+title: "Cryogenics: User Interface"
 sidebar_label: User Interface
 ---
 
